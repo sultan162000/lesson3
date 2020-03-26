@@ -28,7 +28,7 @@ namespace lesson3
             
             //////////////////////////////////////////////////////
             ///////Задача 3
-            int operand1 = 55,operand2 = 0;
+            double operand1 = 55, double = 8;
             Console.Write("Введите ариф. операцию: ");
             string sign = Console.ReadLine();
             switch (sign)
@@ -64,7 +64,7 @@ namespace lesson3
             convert1 = Console.ReadLine();
             x = Convert.ToInt32(convert1);
            
-           if(x<=14)Console.WriteLine("Число в диапазоне 0-14");
+           if(x>=0&&x<=14)Console.WriteLine("Число в диапазоне 0-14");
            else if(x>14&&x<=35)Console.WriteLine("Число в диапазоне 14-35");
            else if(x>35&&x<=50)Console.WriteLine("Число в диапазоне 35-50");
            else if(x>50&&x<=100)Console.WriteLine("Число в диапазоне 50-100");
